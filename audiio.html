@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="playAudio()">Play</button>
+    <button onclick="PauseAudio()">Pause</button>
+    <script>
+        var audioFile=new Audio()
+        audioFile.src="./kabir.mp3"
+        function playAudio()
+        {
+            audioFile.play()
+        }
+        function PauseAudio()
+        {
+            audioFile.pause()
+        }
+        </script>
+</body>
+</html>
